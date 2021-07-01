@@ -22,8 +22,8 @@ set_env () {
 
 	export TF_WORKSPACE="${CUSTOMER}-${ENVIRONMENT}-${SLICE}"
 
-	export TF_STATE_BUCKET="videocloud-${PROJECT}-${CUSTOMER}-${ENVIRONMENT}-tf"
+	export TF_STATE_BUCKET="ssono-${PROJECT}-${CUSTOMER}-${ENVIRONMENT}-tf"
 
-	export SA_GCP_PROJECT="videocloud-cicd-${CUSTOMER}-${ENVIRONMENT}"
-	export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT="tf-vc-${PROJECT}-${CUSTOMER}-${ENVIRONMENT}@${SA_GCP_PROJECT}.iam.gserviceaccount.com"
+	export SA_GCP_PROJECT="ssono-cicd-${CUSTOMER}-${ENVIRONMENT}"
+	export GOOGLE_IMPERSONATE_SERVICE_ACCOUNT="tf-ssono-${PROJECT}-${CUSTOMER}-${ENVIRONMENT}@${SA_GCP_PROJECT}.iam.gserviceaccount.com"
 }

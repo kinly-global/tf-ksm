@@ -1,5 +1,5 @@
 terraform {
   backend "gcs" {
-    prefix = var.project
+    prefix = "ksm"
   }
 }

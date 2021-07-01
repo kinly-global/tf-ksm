@@ -10,3 +10,6 @@ variable "slice" {
 variable "gcp_project" {
   type = string
 }
+variable "project" {
+  type = string
+  }

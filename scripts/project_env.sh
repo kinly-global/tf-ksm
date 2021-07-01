@@ -1,2 +1,2 @@
 #!/bin/sh
-export PROJECT="###PROJECT###"
+export PROJECT="ksm"

@@ -1,9 +1,9 @@
 variable "project_prefix" {
   type    = string
-  default = "videocloud"
+  default = "ssono"
 }
 
 variable "project" {
   type    = string
-  default = "###PROJECT###"
+  default = "ksm"
 }

@@ -43,7 +43,7 @@ if [ -r $SLICEFILE ]; then
 	echo Slices for all enviroments: $ALLSLICE
 fi
 
-for p in `gcloud projects list --format="value(project_id)" | grep ^videocloud-${PROJECT} | sort`
+for p in `gcloud projects list --format="value(project_id)" | grep ^ssono-${PROJECT} | sort`
 do
 	CUSTOMER=`echo $p | cut -f3 -d'-'`
 	ENVIRONMENT=`echo $p | cut -f4 -d'-'`
